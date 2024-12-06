@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    max-width: 860px;
+    margin: 40px auto 0 auto;
+    font-size: 18px;
+
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+.tableHead {
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tableHeadData {
+    padding: 16px;
+    font-weight: 600;
+}
+
+.tableData {
+    font-family: inherit;
+    padding: 16px;
+
+    text-align-last: center;
+    border: 1px solid #000;
+}
+
+.tableData:first-child {
+    text-transform: capitalize;
+}
+
+.tableBody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
